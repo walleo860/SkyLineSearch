@@ -1,0 +1,119 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.3-Prizren">
+  <identifier>AdministrativeForest</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>Administrative Forest</title>
+  <abstract>An area encompassing all the National Forest System lands administered by an administrative unit. The area encompasses private lands, other governmental agency lands, and may contain National Forest System lands within the proclaimed boundaries of another administrative unit. All National Forest System lands fall within one and only one Administrative Forest Area.
+
+This data is intended for read-only use. These data were prepared to describe Forest Service administrative area boundaries. The purpose of the data is to provide display, identification, and analysis tools for determining current boundary information for Forest Service managers, GIS Specialists, and others.
+
+An area encompassing all the National Forest System lands administered by an administrative unit. The area encompasses private lands, other governmental agency lands, and may contain National Forest System lands within the proclaimed boundaries of another administrative unit. All National Forest System lands fall within one and only one Administrative Forest Area.
+
+This data is intended for read-only use. These data were prepared to describe Forest Service administrative area boundaries. The purpose of the data is to provide display, identification, and analysis tools for determining current boundary information for Forest Service managers, GIS Specialists, and others.
+
+The Forest Service has multiple types of boundaries represented by different feature classes (layers): Administrative, Ownership and Proclaimed. ADMINISTRATIVE boundaries (e.g. AdministrativeForest and RangerDistrict feature classes) encompass National Forest System lands managed by an administrative unit. These are dynamic layers that should not be considered "legal" boundaries as they are simply intended to identify the specific organizational units that administer areas. As lands are acquired and disposed, the administrative boundaries are adjusted to expand or shrink accordingly. Please note that ranger districts are sub units of National Forests. An administrative forest boundary can contain one or more Proclaimed National Forests, National Grasslands, Purchase Units, Research and Experimental Areas, Land Utilization Projects and various "Other" Areas. If needed, OWNERSHIP boundaries (e.g. BasicOwnership and SurfaceOwnership feature classes) should be reviewed along with these datasets to determine parcels that are federally managed within the administrative boundaries. OWNERSHIP boundaries (e.g. BasicOwnership and SurfaceOwnership feature classes) represent parcels that are tied to legal transactions of ownership. These are parcels of Federal land managed by the USDA Forest Service. Please note that the BasicOwnership layer is simply a dissolved version of the SurfaceOwnership layer. PROCLAIMED boundaries (e.g. ProclaimedForest and ProclaimedForest_Grassland) encompass areas of National Forest System land that is set aside and reserved from public domain by executive order or proclamation. Please note that the ProclaimedForest layer contains only proclaimed forests while ProclaimedForest_Grassland layer contains both proclaimed forests and proclaimed grasslands. For boundaries that reflect current National Forest System lands managed by an administrative unit, see the ADMINISTRATIVE boundaries (AdministrativeForest and RangerDistrict feature classes). For a visual comparison of the different kinds of USFS boundary datasets maintained by the USFS, see the Forest Service Boundary Comparison map at https://usfs.maps.arcgis.com/apps/CompareAnalysis/index.html?appid=fe7b9f56217949a291356f08cfccb119. USFS boundaries are often referenced in national datasets maintained by other federal agencies. Please note that variations may be found between USFS data and other boundary datasets due to differing update frequencies. PAD-US (Protected Areas Database of the United States), maintained by the U.S. Geological Survey, is a "best available" inventory of protected areas including data provided by managing agencies and organizations including the Forest Service. For more information see https://gapanalysis.usgs.gov/padus/data/metadata/. SMA (Surface Management Agency), maintained by the Bureau of Land Management, depicts Federal land for the United States and classifies this land by its active Federal surface managing agency. It uses data provided by the Forest Service and other agencies, combined with National Regional Offices collection efforts. For more information see https://landscape.blm.gov/geoportal/catalog/search/resource/details.page?uuid=%7B2A8B8906-7711-4AF7-9510-C6C7FD991177%7D.
+
+The Forest Service has multiple types of boundaries represented by different feature classes (layers): Administrative, Ownership and Proclaimed. 1) ADMINISTRATIVE boundaries (e.g. AdministrativeForest and RangerDistrict feature classes) encompass National Forest System lands managed by an administrative unit. These are dynamic layers that should not be considered "legal" boundaries as they are simply intended to identify the specific organizational units that administer areas. As lands are acquired and disposed, the administrative boundaries are adjusted to expand or shrink accordingly. Please note that ranger districts are sub units of National Forests. An administrative forest boundary can contain one or more Proclaimed National Forests, National Grasslands, Purchase Units, Research and Experimental Areas, Land Utilization Projects and various "Other" Areas. If needed, OWNERSHIP boundaries (e.g. BasicOwnership and SurfaceOwnership feature classes) should be reviewed along with these datasets to determine parcels that are federally managed within the administrative boundaries. 2) OWNERSHIP boundaries (e.g. BasicOwnership and SurfaceOwnership feature classes) represent parcels that are tied to legal transactions of ownership. These are parcels of Federal land managed by the USDA Forest Service. Please note that the BasicOwnership layer is simply a dissolved version of the SurfaceOwnership layer. 3) PROCLAIMED boundaries (e.g. ProclaimedForest and ProclaimedForest_Grassland) encompass areas of National Forest System land that is set aside and reserved from public domain by executive order or proclamation. Please note that the ProclaimedForest layer contains only proclaimed forests while ProclaimedForest_Grassland layer contains both proclaimed forests and proclaimed grasslands. For boundaries that reflect current National Forest System lands managed by an administrative unit, see the ADMINISTRATIVE boundaries (AdministrativeForest and RangerDistrict feature classes). For a visual comparison of the different kinds of USFS boundary datasets maintained by the USFS, see the Forest Service Boundary Comparison map at https://usfs.maps.arcgis.com/apps/CompareAnalysis/index.html?appid=fe7b9f56217949a291356f08cfccb119. USFS boundaries are often referenced in national datasets maintained by other federal agencies. Please note that variations may be found between USFS data and other boundary datasets due to differing update frequencies. PAD-US (Protected Areas Database of the United States), maintained by the U.S. Geological Survey, is a "best available" inventory of protected areas including data provided by managing agencies and organizations including the Forest Service. For more information see https://gapanalysis.usgs.gov/padus/data/metadata/. SMA (Surface Management Agency), maintained by the Bureau of Land Management, depicts Federal land for the United States and classifies this land by its active Federal surface managing agency. It uses data provided by the Forest Service and other agencies, combined with National Regional Offices collection efforts. For more information see https://landscape.blm.gov/geoportal/catalog/search/resource/details.page?uuid=%7B2A8B8906-7711-4AF7-9510-C6C7FD991177%7D.</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>Region</keyword>
+    <keyword>Land Status</keyword>
+    <keyword>NFS Lands</keyword>
+    <keyword>Forest Number</keyword>
+    <keyword>boundaries</keyword>
+    <keyword>Forest Service Land Dataset</keyword>
+    <keyword>Forest Service Lands Program</keyword>
+    <keyword>Administrative Forest</keyword>
+    <keyword>Forest Name</keyword>
+    <keyword>USDA Forest Service</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Region</keyword>
+    <keyword>Land Status</keyword>
+    <keyword>NFS Lands</keyword>
+    <keyword>Forest Number</keyword>
+    <keyword>Forest Service Land Dataset</keyword>
+    <keyword>Forest Service Lands Program</keyword>
+    <keyword>Administrative Forest</keyword>
+    <keyword>Forest Name</keyword>
+    <keyword>USDA Forest Service</keyword>
+    <keyword>boundaries</keyword>
+    <keyword>Forest Service Land Dataset</keyword>
+    <keyword>boundaries</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>physical</type>
+      <address></address>
+      <city>Washington</city>
+      <administrativearea>DC</administrativearea>
+      <postalcode>20250</postalcode>
+      <country></country>
+    </contactAddress>
+    <name></name>
+    <organization>USFS Chief Information Office, Enterprise Data Warehouse</organization>
+    <position></position>
+    <voice>Please send an e-mail to the address below.</voice>
+    <fax></fax>
+    <email>SM.FS.data@usda.gov</email>
+    <role>Point of contact</role>
+  </contact>
+  <contact>
+    <contactAddress>
+      <type>physical</type>
+      <address></address>
+      <city>Washington</city>
+      <administrativearea>DC</administrativearea>
+      <postalcode>20250</postalcode>
+      <country>US</country>
+    </contactAddress>
+    <name>USFS Chief Information Office, Enterprise Data Warehouse</name>
+    <organization>USFS Chief Information Office, Enterprise Data Warehouse</organization>
+    <position></position>
+    <voice>Please send an e-mail to the address below.</voice>
+    <fax></fax>
+    <email>data@fs.fed.us</email>
+    <role>Point of contact</role>
+  </contact>
+  <links>
+    <link format="" size="" description="" type="" name="" mimeType="" url=""/>
+  </links>
+  <history>Data source: Regional data utilizing subtypes.</history>
+  <dates>
+    <date value="2024-05-19T09:50:57" type="Published"/>
+  </dates>
+  <fees></fees>
+  <constraints type="Limitations of use">The USDA Forest Service makes no warranty, expressed or implied, including the warranties of merchantability and fitness for a particular purpose, nor assumes any legal liability or responsibility for the accuracy, reliability, completeness or utility of these geospatial data, or for the improper or incorrect use of these geospatial data. These geospatial data and related maps or graphics are not legal documents and are not intended to be used as such. The data and maps may not be used to determine title, ownership, legal descriptions or boundaries, legal jurisdiction, or restrictions that may be in place on either public or private land. Natural hazards may or may not be depicted on the data and maps, and land users should exercise due caution. The data are dynamic and may change over time. The user is responsible to verify the limitations of the geospatial data and to use the data accordingly.</constraints>
+  <constraints type="Access">None</constraints>
+  <rights>The USDA Forest Service makes no warranty, expressed or implied, including the warranties of merchantability and fitness for a particular purpose, nor assumes any legal liability or responsibility for the accuracy, reliability, completeness or utility of these geospatial data, or for the improper or incorrect use of these geospatial data. These geospatial data and related maps or graphics are not legal documents and are not intended to be used as such. The data and maps may not be used to determine title, ownership, legal descriptions or boundaries, legal jurisdiction, or restrictions that may be in place on either public or private land. Natural hazards may or may not be depicted on the data and maps, and land users should exercise due caution. The data are dynamic and may change over time. The user is responsible to verify the limitations of the geospatial data and to use the data accordingly.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt>GEOGCRS["NAD83",DATUM["North American Datum 1983",ELLIPSOID["GRS 1980",6378137,298.257222101,LENGTHUNIT["metre",1]]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Geodesy."],AREA["North America - onshore and offshore: Canada - Alberta; British Columbia; Manitoba; New Brunswick; Newfoundland and Labrador; Northwest Territories; Nova Scotia; Nunavut; Ontario; Prince Edward Island; Quebec; Saskatchewan; Yukon. Puerto Rico. United States (USA) - Alabama; Alaska; Arizona; Arkansas; California; Colorado; Connecticut; Delaware; Florida; Georgia; Hawaii; Idaho; Illinois; Indiana; Iowa; Kansas; Kentucky; Louisiana; Maine; Maryland; Massachusetts; Michigan; Minnesota; Mississippi; Missouri; Montana; Nebraska; Nevada; New Hampshire; New Jersey; New Mexico; New York; North Carolina; North Dakota; Ohio; Oklahoma; Oregon; Pennsylvania; Rhode Island; South Carolina; South Dakota; Tennessee; Texas; Utah; Vermont; Virginia; Washington; West Virginia; Wisconsin; Wyoming. US Virgin Islands. British Virgin Islands."],BBOX[14.92,167.65,86.45,-40.73]],ID["EPSG",4269]]</wkt>
+      <proj4>+proj=longlat +datum=NAD83 +no_defs</proj4>
+      <srsid>3401</srsid>
+      <srid>4269</srid>
+      <authid>EPSG:4269</authid>
+      <description>NAD83</description>
+      <projectionacronym>longlat</projectionacronym>
+      <ellipsoidacronym>EPSG:7019</ellipsoidacronym>
+      <geographicflag>true</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxy="61.51899199999999723" dimensions="2" maxz="0" miny="17.73898300000000106" minz="0" crs="EPSG:4269" maxx="-64.73432900000000245" minx="-150.00792799999999261"/>
+    <temporal>
+      <period>
+        <start>2024-05-19T15:50:57Z</start>
+        <end></end>
+      </period>
+    </temporal>
+    <temporal>
+      <period>
+        <start></start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
