@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>U.S. Department of Interior, Bureau of Land Management (BLM)</origin>
+				<title>BLM National Recreation Site Polygons</title>
+				<geoform>vector digital data</geoform>
+				<othercit>This is an aggregate national dataset. Source data were received from all or some of the BLM state offices of Alaska, Arizona, California, Colorado, Eastern States, Idaho, Montana, Nevada, New Mexico, Oregon/Washington, Utah, and Wyoming.</othercit>
+				<pubdate>9/9/9999</pubdate>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This polygon feature class represents the spatial extent and boundaries of the BLM Recreation Sites. The general types of recreation polygon features targeted by this feature class include campgrounds, OHV designated areas, recreation management areas, natural/endangered areas, etc.</abstract>
+			<purpose>The purpose of this polygon feature class is to show the spatial extent and boundaries for BLM Recreation Sites</purpose>
+			<supplinf>A published revision of the Department Manual’s Part 305: Departmental Science Effects, Chapter 3: Integrity of Scientific and Scholarly Activities (305 DM 3), effective December 16, 2014, is available online at http://elips.doi.gov/ELIPS/DocView.aspx?id=4056. Scholarly information considered in Departmental decision making must be robust, of the highest quality, and the result of as rigorous scientific and scholarly processes as can be achieved. Most importantly, it must be trustworthy. This policy helps us to achieve that standard (http://www.doi.gov/scientificintegrity/index.cfm). Each state office has a Data Steward or Contact Person for this data. Please contact the specific state office for additional information on their state dataset.</supplinf>
+		</descript>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-148.061058</westbc>
+				<eastbc>-105.671376</eastbc>
+				<northbc>65.898552</northbc>
+				<southbc>32.160012</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>BLM-THEME</themekt>
+				<themekey>Facility</themekey>
+				<themekey>Management</themekey>
+				<themekey>Recreation</themekey>
+			</theme>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>BLM</themekey>
+				<themekey>Geospatial</themekey>
+				<themekey>Bureau of Land Management</themekey>
+				<themekey>Public Lands</themekey>
+				<themekey>Recreation Sites</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Category</themekt>
+				<themekey>location</themekey>
+				<themekey>013</themekey>
+				<themekey>transportation</themekey>
+				<themekey>018</themekey>
+				<themekey>society</themekey>
+				<themekey>016</themekey>
+				<themekey>structure</themekey>
+				<themekey>017</themekey>
+				<themekey>economy</themekey>
+				<themekey>005</themekey>
+			</theme>
+			<place>
+				<placekt>BLM-State</placekt>
+				<placekey>Wyoming</placekey>
+				<placekey>Arizona</placekey>
+				<placekey>Oregon</placekey>
+				<placekey>Alaska</placekey>
+				<placekey>California</placekey>
+				<placekey>Utah</placekey>
+				<placekey>Montana</placekey>
+				<placekey>New Mexico</placekey>
+				<placekey>Idaho</placekey>
+				<placekey>Colorado</placekey>
+				<placekey>Nevada</placekey>
+				<placekey>Eastern States</placekey>
+			</place>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Eastern States</placekey>
+				<placekey>Western States</placekey>
+				<placekey>United States</placekey>
+			</place>
+		</keywords>
+		<accconst>These are data made available to the public and are considered public domain. These data contain no sensitive information which would be prevented from disclosure by Freedom of Information Act (FOIA), the Privacy Act or other laws.</accconst>
+		<useconst>These data are provided by BLM "as is" and may contain errors or omissions. The User assumes the entire risk associated with its use of these data and bears all responsibility in determining whether these data are fit for the User's intended use. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived, and both scale and accuracy may vary across the data set. These data may not have the accuracy, resolution, completeness, timeliness, or other characteristics appropriate for applications that potential users of the data may contemplate. The User is encouraged to carefully consider the content of the metadata file associated with these data. These data are neither legal documents nor land surveys, and must not be used as such. Official records may be referenced at most BLM offices. Please report any errors in the data to the BLM office for which it was obtained. The BLM should be cited as the data source in any products derived from these data. Any Users wishing to modify the data should describe the types of modifications they have performed. The User should not misrepresent the data, nor imply that changes made were approved or endorsed by BLM. This information may be updated without notification.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Bureau of Land Management</cntorg>
+					<cntper>National Data Steward</cntper>
+				</cntorgp>
+				<cntpos>National Data Steward</cntpos>
+				<cntaddr>
+					<addrtype>physical</addrtype>
+					<address>20 M Street SE</address>
+					<city>Washington</city>
+					<state>DC</state>
+					<postal>20003-3503</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>(202)912-7252</cntvoice>
+				<cntfax>(202)912-7362</cntfax>
+				<cntemail>dbyrd@blm.gov</cntemail>
+			</cntinfo>
+		</ptcontac>
+		<datacred>BLM Admin State</datacred>
+		<native>Esri ArcGIS 10.2.1.3497</native>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>9/9/9999</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+	</idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>This national dataset is an aggregation from multiple datasets provided by the BLM Administrative States. Please call the distributor for additional information on provenance, history, accuracy and quality of the data. The accuracy of attributes in this dataset reflects that of the source datasets.</attraccr>
+		</attracc>
+		<logic>This national dataset is an aggregation from multiple datasets provided by the BLM Administrative States. Please contact the distributor for additional information on provenance, history, accuracy and quality of the data. The logical consistency of this dataset reflects that of the source datasets.</logic>
+		<complete>This national dataset is an aggregation from multiple datasets provided by the BLM Administrative States, please contact the distributor for additional information on provenance, history, accuracy and quality of the data. The completeness of this dataset reflects that of the source datasets.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>This national dataset is an aggregation from multiple datasets provided by the BLM Administrative States. Please call the distributor for additional information on provenance, history, accuracy and quality of the data. The positional accuracy across this dataset varies according to the source.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>U.S. Department of Interior, Bureau of Land Management (BLM)</origin>
+						<pubdate>20141205</pubdate>
+						<title>H-1283-2 Data Administration and Management Handbook</title>
+						<edition>Release 1-1762</edition>
+						<onlink>http://web.blm.gov/internal/wo-500/directives/dir-hdbk/h1283-2.pdf</onlink>
+					</citeinfo>
+				</srccite>
+				<typesrc>onLine</typesrc>
+				<srccitea>H-1283-2 Data Administration and Management Handbook</srccitea>
+				<srccontr>This official BLM Data Management handbook contains information about how data is administered, managed, and tracked. This handbook discusses how the BLM operates with regard to data development and design, quality, metadata, and business rules. The information this resources contains also pertains to geospatial data.</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>Using the implementation guidelines, GIS staff at BLM field and state offices cross-walk and clean up their data to comply with the standardized national dataset. Then, the BLM field and/or state offices submit the data to the National Operations Center (NOC), where it is compiled to produce seamless national datasets.</procdesc>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>BLM National Operations Center</cntorg>
+							<cntper>Spatial Data Coordinator</cntper>
+						</cntorgp>
+						<cntpos>Spatial Data Coordinator</cntpos>
+						<cntaddr>
+							<addrtype>physical</addrtype>
+							<address>Bldg. 50, Denver Federal Center</address>
+							<city>Denver</city>
+							<state>CO</state>
+							<postal>80225</postal>
+							<country>US</country>
+						</cntaddr>
+						<cntvoice>(303)236-5445</cntvoice>
+						<cntfax>(303)236-3508</cntfax>
+						<cntemail>scrowe@blm.gov</cntemail>
+					</cntinfo>
+				</proccont>
+				<procdate>9/9/9999</procdate>
+			</procstep>
+		</lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>74</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geograph>
+				<latres>8.9831528411952133e-009</latres>
+				<longres>8.9831528411952133e-009</longres>
+				<geogunit>Decimal Degrees</geogunit>
+			</geograph>
+			<geodetic>
+				<horizdn>D North American 1983</horizdn>
+				<ellips>GRS 1980</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257222101</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>recs_poly</enttypl>
+				<enttypd>BLM National Recreation Site Polygons</enttypd>
+				<enttypds>(RECS) Implementation Guidelines</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FET_TYPE</attrlabl>
+				<attrdef>The broad theme of features that may be depicted as polygons. This particular attribute is tied to 6 possible categories (codes). </attrdef>
+				<attrdomv>
+					<edom>
+						<edomv>1</edomv>
+						<edomvd>CAMPGROUND</edomvd>
+					</edom>
+					<edom>
+						<edomv>2</edomv>
+						<edomvd>DAY USE AREA</edomvd>
+					</edom>
+					<edom>
+						<edomv>3</edomv>
+						<edomvd>OHV DESIGNATED AREA</edomvd>
+					</edom>
+					<edom>
+						<edomv>4</edomv>
+						<edomvd>RECREATION MANAGEMENT AREA</edomvd>
+					</edom>
+					<edom>
+						<edomv>5</edomv>
+						<edomvd>NATURAL AREA/ENDANGERED AREA</edomvd>
+					</edom>
+					<edom>
+						<edomv>6</edomv>
+						<edomvd> UNKNOWN</edomvd>
+					</edom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FET_SUBTYPE</attrlabl>
+				<attrdef>The subtypes that describe the feature codes. The subtype domains will capture more detailed information about a selected theme.</attrdef>
+				<attrdomv>
+					<codesetd>
+						<codesetn>RECS_DOM_CAMPGROUND</codesetn>
+						<codesets>(RECS) Implementation Guidelines</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrdomv>
+					<codesetd>
+						<codesetn>RECS_DOM_DAY_USE_AREA</codesetn>
+						<codesets>(RECS) Implementation Guidelines</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrdomv>
+					<codesetd>
+						<codesetn>RECS_DOM_OHV_DESIG_AREA</codesetn>
+						<codesets>(RECS) Implementation Guidelines</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrdomv>
+					<codesetd>
+						<codesetn>RECS_DOM_REC_MNGMNT_AREA</codesetn>
+						<codesets>(RECS) Implementation Guidelines</codesets>
+					</codesetd>
+				</attrdomv>
+				<attrdomv>
+					<codesetd>
+						<codesetn>RECS_DOM_NAT_ENDNGRD_AREA</codesetn>
+						<codesets>(RECS) Implementation Guidelines</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>FET_NAME</attrlabl>
+				<attrdef>The name of the feature subtype. </attrdef>
+			</attr>
+			<attr>
+				<attrlabl>ADM_UNIT_CD</attrlabl>
+				<attrdef>The BLM administrative unit/office that is a combination of Administrative State Code and Administrative Office Code that fully identifies the geographic area which has jurisdiction over the lands. </attrdef>
+			</attr>
+			<attr>
+				<attrlabl>ADMIN_ST</attrlabl>
+				<attrdef>An administrative unit that identifies the state or geographic area which has administrative jurisdiction over lands, and cases.  The land for a case may not be physically located in the associated administrative state.  Only those states that are BLM administrative states are in the domain for this entity. Example: Montana is the administrative state for public lands in the geographic states of Montana, South and North Dakota.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>GIS_ACRES</attrlabl>
+				<attrdef>The entire acreage of the polygon regardless of land status.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>GLOBALID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>DESCRIPTION</attrlabl>
+				<attrdef>255 character field describing the characteristics for that particular recreation point.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>WEB_LINK</attrlabl>
+				<attrdef>Website URL</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>PHOTO_LINK</attrlabl>
+				<attrdef>URL address pointed to desired site.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>PHOTO_BLOB</attrlabl>
+				<attrdef>Photo Blob</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>UNIT_NAME</attrlabl>
+				<attrdef>The name of the corresponding NLCS National Monument or NCA.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>WEB_DISPLAY</attrlabl>
+				<attrdef>Used to determine what is displayed for public facing NLCS Web Maps. Filter is applied within ArcGIS Online.</attrdef>
+				<attrdomv>
+					<codesetd>
+						<codesetn>DOM_YES_NO</codesetn>
+						<codesets>(RECS) Implementation Guidelines</codesets>
+					</codesetd>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>PHOTO_THUMB</attrlabl>
+				<attrdef>URL address of hosted picture,; configured within the web maps pop-up.</attrdef>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>SHAPE_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+		<overview>
+			<eaover>This polygon feature class represents the spatial extent and boundaries of the BLM Recreation Sites. The general types of recreation polygon features targeted by this feature class include campgrounds, OHV designated areas, recreation management areas, natural/endangered areas, etc.</eaover>
+		</overview>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>BLM National Operations Center, OC530</cntorg>
+					<cntper>NOC Data Management Lead</cntper>
+				</cntorgp>
+				<cntpos>NOC Data Management Lead</cntpos>
+				<cntaddr>
+					<addrtype>physical</addrtype>
+					<address>Bldg. 50, Denver Federal Center</address>
+					<city>Denver</city>
+					<state>CO</state>
+					<postal>80225</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>(303)236-6806</cntvoice>
+				<cntfax>(303)236-3508</cntfax>
+				<cntemail>jcvarner@blm.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<resdesc>Recreation Site Polygons</resdesc>
+		<distliab>The BLM assumes no responsibility for errors or omissions. No warranty is made by the BLM as to the accuracy, reliability, or completeness of these data for individual use or aggregate use with other data; nor shall the act of distribution to contractors, partners, or beyond, constitute any such warranty for individual or aggregate data use with other data. Although these data have been processed successfully on computers of BLM, no warranty, expressed or implied, is made by BLM regarding the use of these data on any other system, or for general or scientific purposes, nor does the fact of distribution constitute or imply any such warranty. In no event shall the BLM have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of the use or reliance on the geographic data or arising out of the delivery, installation, operation, or support by BLM.</distliab>
+		<availabl>
+			<timeinfo>
+				<sngdate>
+					<caldate>9/9/9999</caldate>
+				</sngdate>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<metainfo>
+		<metd>20150709</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>BLM National Operations Center, OC530</cntorg>
+					<cntper>NOC Data Management Lead</cntper>
+				</cntorgp>
+				<cntpos>NOC Data Management Lead</cntpos>
+				<cntaddr>
+					<addrtype>physical</addrtype>
+					<address>Bldg. 50, Denver Federal Center</address>
+					<city>Denver</city>
+					<state>CO</state>
+					<postal>80225</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>(303)236-6806</cntvoice>
+				<cntfax>(303)236-3508</cntfax>
+				<cntemail>jcvarner@blm.gov</cntemail>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+	</metainfo>
+	<mdLang>
+		<languageCode value="eng">
+		</languageCode>
+	</mdLang>
+	<mdChar>
+		<CharSetCd value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdContact>
+		<rpIndName>NOC Data Management Lead</rpIndName>
+		<rpOrgName>BLM National Operations Center, OC530</rpOrgName>
+		<rpPosName>NOC Data Management Lead</rpPosName>
+		<rpCntInfo>
+			<cntPhone>
+				<voiceNum>(303)236-6806</voiceNum>
+				<faxNum>(303)236-3508</faxNum>
+			</cntPhone>
+			<cntAddress addressType="physical">
+				<delPoint>Bldg. 50, Denver Federal Center</delPoint>
+				<city>Denver</city>
+				<adminArea>CO</adminArea>
+				<postCode>80225</postCode>
+				<country>US</country>
+				<eMailAdd>jcvarner@blm.gov</eMailAdd>
+			</cntAddress>
+		</rpCntInfo>
+		<role>
+			<RoleCd value="007">
+			</RoleCd>
+		</role>
+	</mdContact>
+	<mdDateSt Sync="TRUE">2024-05-03</mdDateSt>
+	<mdStanName>ArcGIS Metadata</mdStanName>
+	<mdStanVer>1.0</mdStanVer>
+	<distInfo>
+		<distributor>
+			<distorCont>
+				<rpIndName>NOC Data Management Lead</rpIndName>
+				<rpOrgName>BLM National Operations Center, OC530</rpOrgName>
+				<rpPosName>NOC Data Management Lead</rpPosName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>(303)236-6806</voiceNum>
+						<faxNum>(303)236-3508</faxNum>
+					</cntPhone>
+					<cntAddress addressType="physical">
+						<delPoint>Bldg. 50, Denver Federal Center</delPoint>
+						<city>Denver</city>
+						<adminArea>CO</adminArea>
+						<postCode>80225</postCode>
+						<country>US</country>
+						<eMailAdd>jcvarner@blm.gov</eMailAdd>
+					</cntAddress>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="005">
+					</RoleCd>
+				</role>
+			</distorCont>
+			<distorTran>
+				<onLineSrc>
+					<orDesc>Recreation Site Polygons</orDesc>
+				</onLineSrc>
+			</distorTran>
+		</distributor>
+		<distTranOps>
+			<onLineSrc>
+				<linkage>https://gis.blm.gov/arcgis/rest/services/recreation/BLM_Natl_Recs_poly/MapServer</linkage>
+			</onLineSrc>
+		</distTranOps>
+	</distInfo>
+	<dataIdInfo>
+		<placeKeys>
+			<thesaName>
+				<resTitle>BLM-STATE</resTitle>
+			</thesaName>
+			<keyword>Alaska</keyword>
+			<keyword>Arizona</keyword>
+			<keyword>California</keyword>
+			<keyword>Colorado</keyword>
+			<keyword>Eastern States</keyword>
+			<keyword>Idaho</keyword>
+			<keyword>Montana</keyword>
+			<keyword>Nevada</keyword>
+			<keyword>New Mexico</keyword>
+			<keyword>Oregon</keyword>
+			<keyword>Utah</keyword>
+			<keyword>Wyoming</keyword>
+		</placeKeys>
+		<themeKeys>
+			<thesaName>
+				<resTitle>BLM-THEME</resTitle>
+			</thesaName>
+			<keyword>Facility</keyword>
+			<keyword>Geospatial</keyword>
+			<keyword>Management</keyword>
+			<keyword>Recreation</keyword>
+		</themeKeys>
+		<themeKeys>
+			<thesaName>
+				<resTitle>NONE</resTitle>
+			</thesaName>
+			<keyword>BLM</keyword>
+			<keyword>Bureau of Land Management</keyword>
+			<keyword>Public Lands</keyword>
+			<keyword>Recreation Sites</keyword>
+		</themeKeys>
+		<placeKeys>
+			<thesaName>
+				<resTitle>NONE</resTitle>
+			</thesaName>
+			<keyword>United States</keyword>
+			<keyword>Western States</keyword>
+		</placeKeys>
+		<idCitation>
+			<citRespParty>
+				<rpIndName>Bureau of Land Management</rpIndName>
+				<role>
+					<RoleCd value="010">
+					</RoleCd>
+				</role>
+			</citRespParty>
+			<citRespParty>
+				<rpIndName>U.S. Department of the Interior, Bureau of Land Management (BLM)</rpIndName>
+				<role>
+					<RoleCd value="006">
+					</RoleCd>
+				</role>
+			</citRespParty>
+			<resTitle>BLM National Recreation Site Polygons</resTitle>
+			<citRespParty>
+				<rpOrgName>U.S. Department of Interior, Bureau of Land Management (BLM)</rpOrgName>
+				<role>
+					<RoleCd value="006">
+					</RoleCd>
+				</role>
+			</citRespParty>
+			<presForm>
+				<PresFormCd value="005">
+				</PresFormCd>
+			</presForm>
+			<presForm>
+				<fgdcGeoform>vector digital data</fgdcGeoform>
+			</presForm>
+			<otherCitDet>This is an aggregate national dataset. Source data were received from all or some of the BLM state offices of Alaska, Arizona, California, Colorado, Eastern States, Idaho, Montana, Nevada, New Mexico, Oregon/Washington, Utah, and Wyoming.</otherCitDet>
+			<date>
+				<pubDate>2024-05-03</pubDate>
+			</date>
+			<citRespParty>
+				<rpIndName>NOC Data Management Lead</rpIndName>
+				<rpOrgName>BLM National Operations Center, OC530</rpOrgName>
+				<rpPosName>NOC Data Management Lead</rpPosName>
+				<rpCntInfo>
+					<cntPhone>
+						<voiceNum>(303)236-6806</voiceNum>
+						<faxNum>(303)236-3508</faxNum>
+					</cntPhone>
+					<cntAddress addressType="physical">
+						<delPoint>Bldg. 50, Denver Federal Center</delPoint>
+						<city>Denver</city>
+						<adminArea>CO</adminArea>
+						<postCode>80225</postCode>
+						<country>US</country>
+						<eMailAdd>jcvarner@blm.gov</eMailAdd>
+					</cntAddress>
+				</rpCntInfo>
+				<role>
+					<RoleCd value="007">
+					</RoleCd>
+				</role>
+				<displayName>Name: NOC Data Management Lead
+Organization: BLM National Operations Center, OC530
+Position: NOC Data Management Lead
+Role: Point of Contact</displayName>
+			</citRespParty>
+		</idCitation>
+		<idAbs>This polygon feature class represents the spatial extent and boundaries of the BLM Recreation Sites. The general types of recreation polygon features targeted by this feature class include campgrounds, OHV designated areas, recreation management areas, natural/endangered areas, etc.</idAbs>
+		<idPurp>The purpose of this polygon feature class is to show the spatial extent and boundaries for BLM Recreation Sites</idPurp>
+		<idCredit>BLM Admin State</idCredit>
+		<idStatus>
+			<ProgCd value="001">
+			</ProgCd>
+		</idStatus>
+		<idPoC>
+			<rpIndName>National Data Steward</rpIndName>
+			<rpOrgName>Bureau of Land Management</rpOrgName>
+			<rpPosName>National Data Steward</rpPosName>
+			<rpCntInfo>
+				<cntPhone>
+					<voiceNum>(202)912-7252</voiceNum>
+					<faxNum>(202)912-7362</faxNum>
+				</cntPhone>
+				<cntAddress addressType="physical">
+					<delPoint>20 M Street SE</delPoint>
+					<city>Washington</city>
+					<adminArea>DC</adminArea>
+					<postCode>20003-3503</postCode>
+					<country>US</country>
+					<eMailAdd>dbyrd@blm.gov</eMailAdd>
+				</cntAddress>
+			</rpCntInfo>
+			<role>
+				<RoleCd value="007">
+				</RoleCd>
+			</role>
+		</idPoC>
+		<resMaint>
+			<maintFreq>
+				<MaintFreqCd value="009">
+				</MaintFreqCd>
+			</maintFreq>
+		</resMaint>
+		<searchKeys>
+			<keyword>Alaska</keyword>
+			<keyword>Arizona</keyword>
+			<keyword>BLM</keyword>
+			<keyword>Bureau of Land Management</keyword>
+			<keyword>California</keyword>
+			<keyword>Colorado</keyword>
+			<keyword>Eastern States</keyword>
+			<keyword>economy</keyword>
+			<keyword>Facility</keyword>
+			<keyword>Geospatial</keyword>
+			<keyword>Idaho</keyword>
+			<keyword>location</keyword>
+			<keyword>Management</keyword>
+			<keyword>Montana</keyword>
+			<keyword>Nevada</keyword>
+			<keyword>New Mexico</keyword>
+			<keyword>Oregon</keyword>
+			<keyword>Public Lands</keyword>
+			<keyword>Recreation</keyword>
+			<keyword>Recreation Sites</keyword>
+			<keyword>society</keyword>
+			<keyword>structure</keyword>
+			<keyword>transportation</keyword>
+			<keyword>United States</keyword>
+			<keyword>Utah</keyword>
+			<keyword>Western States</keyword>
+			<keyword>Wyoming</keyword>
+		</searchKeys>
+		<resConst>
+			<LegConsts>
+				<useLimit>The BLM assumes no responsibility for errors or omissions. No warranty is made by the BLM as to the accuracy, reliability, or completeness of these data for individual use or aggregate use with other data; nor shall the act of distribution to contractors, partners, or beyond, constitute any such warranty for individual or aggregate data use with other data. Although these data have been processed successfully on computers of BLM, no warranty, expressed or implied, is made by BLM regarding the use of these data on any other system, or for general or scientific purposes, nor does the fact of distribution constitute or imply any such warranty. In no event shall the BLM have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including, but not limited to, any loss of profits arising out of the use or reliance on the geographic data or arising out of the delivery, installation, operation, or support by BLM.</useLimit>
+				<othConsts>These are data made available to the public and are considered public domain. These data contain no sensitive information which would be prevented from disclosure by Freedom of Information Act (FOIA), the Privacy Act or other laws.</othConsts>
+			</LegConsts>
+		</resConst>
+		<resConst>
+			<Consts>
+				<useLimit>These data are provided by BLM "as is" and may contain errors or omissions. The User assumes the entire risk associated with its use of these data and bears all responsibility in determining whether these data are fit for the User's intended use. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived, and both scale and accuracy may vary across the data set. These data may not have the accuracy, resolution, completeness, timeliness, or other characteristics appropriate for applications that potential users of the data may contemplate. The User is encouraged to carefully consider the content of the metadata file associated with these data. These data are neither legal documents nor land surveys, and must not be used as such. Official records may be referenced at most BLM offices. Please report any errors in the data to the BLM office for which it was obtained. The BLM should be cited as the data source in any products derived from these data. Any Users wishing to modify the data should describe the types of modifications they have performed. The User should not misrepresent the data, nor imply that changes made were approved or endorsed by BLM. This information may be updated without notification.</useLimit>
+			</Consts>
+		</resConst>
+		<spatRpType>
+			<SpatRepTypCd value="001">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataLang>
+			<languageCode value="eng">
+			</languageCode>
+		</dataLang>
+		<envirDesc>Esri ArcGIS 10.2.1.3497</envirDesc>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox>
+					<westBL>-148.061058</westBL>
+					<eastBL>-105.671376</eastBL>
+					<southBL>32.160012</southBL>
+					<northBL>65.898552</northBL>
+				</GeoBndBox>
+			</geoEle>
+			<tempEle>
+				<TempExtent>
+					<exTemp>
+						<TM_Instant>
+							<tmPosition>2024-05-03</tmPosition>
+						</TM_Instant>
+					</exTemp>
+				</TempExtent>
+			</tempEle>
+		</dataExt>
+		<dataExt>
+			<exDesc>publication date</exDesc>
+		</dataExt>
+		<suppInfo>A published revision of the Department Manual’s Part 305: Departmental Science Effects, Chapter 3: Integrity of Scientific and Scholarly Activities (305 DM 3), effective December 16, 2014, is available online at http://elips.doi.gov/ELIPS/DocView.aspx?id=4056. Scholarly information considered in Departmental decision making must be robust, of the highest quality, and the result of as rigorous scientific and scholarly processes as can be achieved. Most importantly, it must be trustworthy. This policy helps us to achieve that standard (http://www.doi.gov/scientificintegrity/index.cfm). Each state office has a Data Steward or Contact Person for this data. Please contact the specific state office for additional information on their state dataset.</suppInfo>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="search">
+					<westBL>-124.860828</westBL>
+					<eastBL>-66.885070</eastBL>
+					<northBL>49.384356</northBL>
+					<southBL>24.396305</southBL>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<dataChar>
+			<CharSetCd value="004">
+			</CharSetCd>
+		</dataChar>
+		<tpCat>
+			<TopicCatCd value="018">
+			</TopicCatCd>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="013">
+			</TopicCatCd>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="017">
+			</TopicCatCd>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="016">
+			</TopicCatCd>
+		</tpCat>
+		<tpCat>
+			<TopicCatCd value="005">
+			</TopicCatCd>
+		</tpCat>
+	</dataIdInfo>
+	<dqInfo>
+		<dqScope>
+			<scpLvl>
+				<ScopeCd value="005">
+				</ScopeCd>
+			</scpLvl>
+		</dqScope>
+		<report type="DQConcConsis">
+			<measDesc>This national dataset is an aggregation from multiple datasets provided by the BLM Administrative States. Please contact the distributor for additional information on provenance, history, accuracy and quality of the data. The logical consistency of this dataset reflects that of the source datasets.</measDesc>
+		</report>
+		<report type="DQCompOm">
+			<measDesc>This national dataset is an aggregation from multiple datasets provided by the BLM Administrative States, please contact the distributor for additional information on provenance, history, accuracy and quality of the data. The completeness of this dataset reflects that of the source datasets.</measDesc>
+		</report>
+		<report type="DQQuanAttAcc">
+			<measDesc>This national dataset is an aggregation from multiple datasets provided by the BLM Administrative States. Please call the distributor for additional information on provenance, history, accuracy and quality of the data. The accuracy of attributes in this dataset reflects that of the source datasets.</measDesc>
+		</report>
+		<report type="DQAbsExtPosAcc" dimension="horizontal">
+			<measDesc>This national dataset is an aggregation from multiple datasets provided by the BLM Administrative States. Please call the distributor for additional information on provenance, history, accuracy and quality of the data. The positional accuracy across this dataset varies according to the source.</measDesc>
+		</report>
+		<dataLineage>
+			<prcStep>
+				<stepDesc>Using the implementation guidelines, GIS staff at BLM field and state offices cross-walk and clean up their data to comply with the standardized national dataset. Then, the BLM field and/or state offices submit the data to the National Operations Center (NOC), where it is compiled to produce seamless national datasets.</stepDesc>
+				<stepProc>
+					<rpIndName>Spatial Data Coordinator</rpIndName>
+					<rpOrgName>BLM National Operations Center</rpOrgName>
+					<rpPosName>Spatial Data Coordinator</rpPosName>
+					<rpCntInfo>
+						<cntPhone>
+							<voiceNum>(303)236-5445</voiceNum>
+							<faxNum>(303)236-3508</faxNum>
+						</cntPhone>
+						<cntAddress addressType="physical">
+							<delPoint>Bldg. 50, Denver Federal Center</delPoint>
+							<city>Denver</city>
+							<adminArea>CO</adminArea>
+							<postCode>80225</postCode>
+							<country>US</country>
+							<eMailAdd>scrowe@blm.gov</eMailAdd>
+						</cntAddress>
+					</rpCntInfo>
+					<role>
+						<RoleCd value="009">
+						</RoleCd>
+					</role>
+				</stepProc>
+				<stepDateTm>2024-05-03</stepDateTm>
+			</prcStep>
+			<dataSource>
+				<srcDesc>This official BLM Data Management handbook contains information about how data is administered, managed, and tracked. This handbook discusses how the BLM operates with regard to data development and design, quality, metadata, and business rules. The information this resources contains also pertains to geospatial data.</srcDesc>
+				<srcMedName>
+					<MedNameCd value="015">
+					</MedNameCd>
+				</srcMedName>
+				<srcCitatn>
+					<resTitle>H-1283-2 Data Administration and Management Handbook</resTitle>
+					<resAltTitle>H-1283-2 Data Administration and Management Handbook</resAltTitle>
+					<date>
+						<pubDate>2014-12-05</pubDate>
+					</date>
+					<resEd>Release 1-1762</resEd>
+					<citRespParty>
+						<rpOrgName>U.S. Department of Interior, Bureau of Land Management (BLM)</rpOrgName>
+						<role>
+							<RoleCd value="006">
+							</RoleCd>
+						</role>
+					</citRespParty>
+					<citOnlineRes>
+						<linkage>http://web.blm.gov/internal/wo-500/directives/dir-hdbk/h1283-2.pdf</linkage>
+					</citOnlineRes>
+				</srcCitatn>
+			</dataSource>
+		</dataLineage>
+	</dqInfo>
+	<spatRepInfo>
+		<VectSpatRep>
+			<geometObjs>
+				<geoObjTyp>
+					<GeoObjTypCd value="001">
+					</GeoObjTypCd>
+				</geoObjTyp>
+				<geoObjCnt>74</geoObjCnt>
+			</geometObjs>
+		</VectSpatRep>
+	</spatRepInfo>
+	<Esri>
+		<CreaDate>20240514</CreaDate>
+		<CreaTime>09461300</CreaTime>
+		<ArcGISFormat>1.0</ArcGISFormat>
+		<scaleRange>
+			<minScale>150000000</minScale>
+			<maxScale>5000</maxScale>
+		</scaleRange>
+		<DataProperties>
+			<itemProps>
+				<imsContentType export="False">
+				</imsContentType>
+			</itemProps>
+		</DataProperties>
+		<SyncOnce>TRUE</SyncOnce></Esri>
+	<mdMaint>
+		<maintNote>Last metadata review date: 20240220</maintNote>
+	</mdMaint>
+</metadata>
