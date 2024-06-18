@@ -14,7 +14,7 @@ What Needs to be Done:
 
 3) Modeling 
 4) Using the model pipeline
-5) App for said pipeline
+5) Front End for said pipeline
 
 ## The Shiny App
 This app is used for data entry.  As we do not have access to slackmap's database all data has been entered through this app.  The app is very simple and only has the ability to choose if the feature you are entering is riggable or not.  You can then draw a single line on the map to enter data.  If you mess up you can always select the feature you created on the table beneath the map and delete it using the delete button.  Before doing so please verify that it is the feature you think it is. You should be able to open the shiny app by navigating to the server file in Rstudio and clicking "Run App" in the gui.   
