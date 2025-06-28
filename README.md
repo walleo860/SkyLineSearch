@@ -30,7 +30,7 @@ The data pipeline is in 2 parts and is set up to run within the Qgis gui. Below 
   2) Queries The National Map API for 3D elevation maps that contain said bounding box
   3) Determines what other clusters are also within the bounds of the downloaded map
   4) Loops through each of these clusters including the one from step one.
-  4a) Creates a bounding bo x for a cluster's points
+  4a) Creates a bounding box for a cluster's points
   4b) Rasterizes a portion of the contour layer downloaded in step 2 with a bounding box created in 4a 
   4c) Extracts the elevation at each point along the line and updates the attribute table
   4d) If a cluster has values for all its points it is added to a vector of clusters to skip and is skipped when the while loop comes to it again
@@ -40,7 +40,7 @@ The data pipeline is in 2 parts and is set up to run within the Qgis gui. Below 
   8) Saves layers
 
 ## Modeling 
-Random forest?
+I was thinking of doing a random forest or classification tree however got a job before I was able to get around to it.  
 
 ##
 
